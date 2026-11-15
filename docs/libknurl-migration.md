@@ -1,6 +1,12 @@
 # Migrate Vectis from vendored Kore to libknurl
 
-## Decision for the current checkout
+Historical scope: this is the libknurl **0.1.0** assessment. Its probe results,
+dependency versions and Lua-product discussion apply only to that release.
+The [0.2.0 cutover plan](libknurl-cutover-plan.md) supersedes its recommendations:
+startup preflight is now delivered, the required LoneJSON ABI is 29, and the
+provider ships the C SDK only. Vectis has not yet implemented the cutover.
+
+## Decision recorded for the 0.1.0 assessment
 
 Use libknurl's public C API as the server boundary. The released 0.1.0 SDK
 supports the main route, upload, proxy, WebDAV and host lifecycle operations

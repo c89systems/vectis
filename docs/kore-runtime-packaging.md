@@ -1,5 +1,9 @@
 # Kore Runtime Packaging
 
+This describes the current implementation. The
+[libknurl cutover plan](libknurl-cutover-plan.md) proposes replacing it with the
+released external C SDK; that backend change is not implemented yet.
+
 ## Decision
 
 Vectis keeps Kore as a vendored upstream checkout plus a Vectis-owned patch

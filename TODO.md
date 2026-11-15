@@ -52,6 +52,9 @@ part of the current work.
 - [x] Add actual Kore patch files for vectis-specific behavior.
 - [x] Add automated assertions that the patch stack applies cleanly after upgrade.
 - [x] Decide whether Kore remains patched in-tree or is built as a Vectis-owned downstream runtime library for release packaging.
+- [x] Investigate released libknurl 0.2.0 and record the [cutover plan](docs/libknurl-cutover-plan.md), installed-SDK preflight evidence and dependency blockers.
+- [ ] Align cpkt/LoneJSON/liblockdc and obtain a compatible CAI release for the libknurl 0.2.0 dependency closure.
+- [ ] Replace the vendored Kore/server execution with public libknurl forwarding, remove replaced code/build/package paths and prove normal/packed/static/shared consumer parity.
 
 ## Area 4: C SDK Surface
 

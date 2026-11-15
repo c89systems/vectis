@@ -43,6 +43,7 @@ an option is available or a release is approved.
 | [Reverse proxy](reverse-proxy-spec.md) | Implemented HTTP/SSE/WebSocket transport and hooks, resource policy and platform gates. |
 | [Kore surface](kore-runtime-surface-audit.md) | Supported routes/runtime knobs and deliberate raw-Kore exclusions. |
 | [Kore packaging](kore-runtime-packaging.md) | Private vendored runtime and SDK boundary. |
+| [libknurl cutover plan](libknurl-cutover-plan.md) | Planned clean replacement with released 0.2.0 C SDK; verified preflight and current CAI/LoneJSON ABI blocker. |
 | [Local release matrix](release-matrix.md) | Local artifacts/gates, osxcross Darwin proof and optional hosted diagnostics. |
 | [Local test runtime](test-runtime.md) | Pinned Bootlin execution policy; dated measurements below it are historical. |
 | [Fast failures](testing-failure-modes.md) | Current fast target closure and deterministic failure coverage. |
